@@ -28,6 +28,13 @@ var plant = {
     hindi: 'chamgadar'
 
 };
+var human = {
+    name: 'Krishna',
+    breed: 'human',
+    location: animal.location,
+    hindi: 'manushyaa'
+
+};
 animal.legs = '8';
 animal.location.city = 'New delhi'
 bird.location = {city: 'laddoo' , country: 'Bharat'}
@@ -35,3 +42,4 @@ plant.location = {city: 'purikachori' , country: 'JaiHind'}
 console.log(animal);
 console.log(bird);
 console.log(plant);
+console.log(human);
