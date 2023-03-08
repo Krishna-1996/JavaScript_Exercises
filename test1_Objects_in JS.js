@@ -29,7 +29,7 @@ var plant = {
 
 };
 var human = {
-    name: 'Krishna',
+    name: 'Gargi',
     breed: 'human',
     location: animal.location,
     hindi: 'manushyaa'
