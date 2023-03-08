@@ -30,7 +30,8 @@ var plant = {
 };
 animal.legs = '8';
 animal.location.city = 'New delhi'
-bird.location.country = 'Bharat'
+bird.location = {city: 'laddoo' , country: 'Bharat'}
+plant.location = {city: 'purikachori' , country: 'JaiHind'}
 console.log(animal);
 console.log(bird);
 console.log(plant);
