@@ -57,3 +57,8 @@ function sayHi() {
 }
 sayHi();
 console.log(`can we use inside ${user}`);
+//Another important information 
+x = 5;//this is global polluted variable scope
+console.log(x);//#5
+var x =10;// this is defined var in placeholder named as x
+console.log(x);//#10
