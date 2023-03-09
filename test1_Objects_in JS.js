@@ -44,10 +44,10 @@ console.log("###########################################");
 console.log("###########################################");
 console.log("###########################################");
 /*("var created outisde the function can be sused in the function BUT ifvar created inside the function can not access out that function but the inner function can use it*/
-var user = "Krishna";
+var user = "Krishna";//global var
 
 function sayHi() {
-  var id = 12345;
+  var id = 12345;//function var
   console.log(`The user name is: ${user} and the ID is: ${id}`);
   function bye() {
     var tata = "Tchuss..!";
