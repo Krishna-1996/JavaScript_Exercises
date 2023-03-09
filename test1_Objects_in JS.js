@@ -22,10 +22,10 @@ var bird = {
 
 };
 var plant = {
-    name: 'bat',
+    name: 'sunflower',
     breed: 'plant',
     location: animal.location,
-    hindi: 'chamgadar'
+    hindi: 'surajmukhi'
 
 };
 var human = {
@@ -37,7 +37,7 @@ var human = {
 };
 animal.legs = '8';
 animal.location.city = 'New delhi'
-bird.location = {city: 'laddoo' , country: 'Bharat'}
+bird.liocaton = {city: 'laddoo' , country: 'Bharat'}
 plant.location = {city: 'purikachori' , country: 'JaiHind'}
 console.log(animal);
 console.log(bird);
